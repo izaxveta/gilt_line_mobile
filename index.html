@@ -1,32 +1,37 @@
 <html>
 
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100|Playfair+Display+SC" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/main.scss" title="text/scss" />
-    <nav>
-      <div class='logo'>
-        <h1>GILTline</h1>
-      </div>
-    </nav>
   </head>
 
   <body>
-    <div class='form-container'>
-      <div class='register'></div>
-        <div class='form'>
+    <nav>
+      <div class='logo'>
+        <span id='gilt'>GILT</span><span id='line'>line</span>
+      </div>
+    </nav>
 
-        </div>
-        <div class='register-button'>
-          <p>REGISTER</p>
-        </div>
-    </div>
-    <div class='sign-in'>
-      <p>For returning users, please sign in using the link below</p>
-      <div class='sign-in-button'>
-        <p>SIGN IN</p>
+    <div class='form-container'>
+
+      <div class='register-form'>
+        <form action="/dasboard.html">
+          <input type="text" value='N A M E' class="data-field"><br>
+          <input type="text" value='E M A I L' class="data-field"><br>
+          <input type="text" value='P A S S W O R D' class="data-field"><br>
+          <input type="submit" value="R E G I S T E R" class='register-button'>
+        </form>
+      </div>
+      <div class='line-divider'></div>
+      <div class='sign-in'>
+        <p>Returning users, please sign in using the link below.</p>
+        <a href="/login.html" class='button'>S I G N I N</a>
       </div>
     </div>
-  </body>
-  <footer>
+    <footer>
 
-  </footer>
+    </footer>
+  </body>
+
+
 </html>
