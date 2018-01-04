@@ -1,0 +1,86 @@
+@media screen and (min-width: 375px) {
+  body {
+    background-position  : center;
+    background-size      : 130%;
+    background-position-y: 175px;
+    background-repeat    : no-repeat;
+    margin               : 0px;
+  }
+
+  nav {
+    background-color: black;
+    color           : white;
+    height          : 10%;
+    display         : flex;
+    align-items     : center;
+    justify-content : space-around;
+  }
+
+  .menu-icon img {
+    height: 45%;
+  }
+
+  .user-image img {
+    border-radius: 50%;
+    height       : 120px;
+    width        : 120px;
+  }
+
+  #gilt {
+    font-family   : 'Playfair Display SC', serif;
+    font-size     : 120px;
+    letter-spacing: 3px;
+  }
+
+  #line {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style : italic;
+    font-size  : 100px;
+  }
+
+  footer {
+    background-color: black;
+    color           : white;
+    height          : 10%;
+    position        : fixed;
+    bottom          : 0;
+    width           : 100%;
+  }
+
+  footer form {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-around;
+    padding        : 30px;
+  }
+
+  .data-field {
+    font-family     : 'Josefin Sans', sans-serif;
+    font-style      : italic;
+    color           : grey;
+    background-color: white;
+    border-radius   : 60px;
+    height          : 110px;
+    width           : 750px;
+    font-size       : 55px;
+    text-align      : left;
+    padding-left    : 50px;
+    padding-top     : 8px;
+    border-width    : none;
+    border-style    : solid;
+  }
+
+  .search-button {
+    font-family     : 'Josefin Sans', sans-serif;
+    font-style      : italic;
+    font-size       : 55px;
+    padding-top     : 8px;
+    color           : white;
+    background-color: black;
+    border-color    : white;
+    border-radius   : 60px;
+    border-width    : 4px;
+    height          : 115px;
+    width           : 115px;
+  }
+}
