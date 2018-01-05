@@ -11,6 +11,9 @@
     background-color: black;
     color           : white;
     height          : 10%;
+    position        : fixed;
+    top             : 0;
+    width           : 100%;
     display         : flex;
     align-items     : center;
     justify-content : space-around;
@@ -27,7 +30,7 @@
   }
 
   #gilt {
-    font-family   : 'Playfair Display SC', serif;
+    font-family   : 'Playfair Display', serif;
     font-size     : 120px;
     letter-spacing: 3px;
   }
@@ -36,6 +39,183 @@
     font-family: 'Josefin Sans', sans-serif;
     font-style : italic;
     font-size  : 100px;
+  }
+
+  .user-image img {
+    border-radius: 50%;
+    height       : 120px;
+    width        : 120px;
+  }
+
+  .user-profile {
+    display    : flex;
+    align-items: center;
+    margin-top : 225px;
+  }
+
+  #main img {
+    height     : 320px;
+    width      : 320px;
+    margin-left: 60px;
+  }
+
+  .user-info {
+    font-family: 'Playfair Display', serif;
+    color      : black;
+    margin-left: 60px;
+  }
+
+  .data {
+    height         : 150px;
+    display        : flex;
+    align-items    : left;
+    justify-content: space-between;
+    flex-direction : column;
+  }
+
+  .data span:nth-child(1) { font-size: 25px; letter-spacing: 1px; }
+  .data span:nth-child(2) { font-size: 50px; letter-spacing: 2px; }
+  .data span:nth-child(3) { font-size: 30px; letter-spacing: 1px; }
+
+  .button {
+    height         : 175;
+    display        : flex;
+    align-items    : left;
+    justify-content: space-around;
+    flex-direction : column;
+    margin-top     : 30px;
+  }
+
+  .button a {
+    font-family    : 'Josefin Sans', sans-serif;
+    font-size      : 20px;
+    padding-top    : 8px;
+    color          : black;
+    height         : 60px;
+    text-decoration: none;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    border-color   : black;
+    border-radius  : 50px;
+    border-width   : 3px;
+    border-style   : solid;
+  }
+
+  .edit {
+    width: 350px;
+  }
+
+  .edit:active {
+    background-color: black;
+    color           : white;
+  }
+
+  .notice {
+    font-family    : 'Josefin Sans', sans-serif;
+    font-size      : 30px;
+    display        : flex;
+    justify-content: center;
+
+  }
+
+  .option-bar {
+    height         : 75px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+  }
+
+  #options {
+    flex-direction : row;
+    margin-top     : 0;
+    align-items    : center;
+    justify-content: space-around;
+    position       : absolute;
+    width          : 85%;
+    z-index        : -1;
+  }
+
+  .line-divider {
+    background-color: black;
+    height          : 3px;
+    width           : 100%;
+    z-index         : -1;
+  }
+
+  .option {
+    width: 300px;
+    background-color: white;
+  }
+
+  .option:active {
+    background-color: black;
+    color           : white;
+  }
+
+  .list {
+    margin-top   : 50px;
+    margin-bottom: 250px;
+  }
+
+  .favorite-container {
+    border-color   : black;
+    border-width   : 3px;
+    border-style   : solid;
+    margin         : 20px;
+    margin-left    : 50px;
+    margin-right   : 50px;
+    align-items    : center;
+    display        : flex;
+    justify-content: center;
+
+  }
+
+  .item {
+    font-family    : 'Playfair Display', serif;
+    font-size      : 40px;
+    display        : flex;
+    justify-content: space-between;
+    flex-direction : column;
+    margin         : 50px;
+  }
+
+  .item-images a {
+    float: right;
+    position: absolute;
+  }
+
+  .item img {
+    width     : 770px;
+    height    : auto;
+  }
+
+  .favorite-heart img {
+    height: 75px;
+    width: auto;
+  }
+
+  .item-info {
+    display        : flex;
+    align-items    : left;
+    justify-content: space-between;
+  }
+
+  .style {
+    display       : flex;
+    align-items   : left;
+    flex-direction: column;
+  }
+
+  .description {
+    font-size: 30px;
+  }
+  .price {
+    display    : flex;
+    align-items: right;
+    color      : goldenrod;
+    font-style : italic;
   }
 
   footer {
