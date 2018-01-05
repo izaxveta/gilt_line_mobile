@@ -1,9 +1,11 @@
 <html>
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100|Playfair+Display+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100|Playfair+Display:400" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/dashboard.scss" title="text/scss" />
   </head>
   <body>
+
+
     <nav>
       <div class='menu-icon'>
           <img src="./images/menu-icon.png" alt="profile">
@@ -15,6 +17,56 @@
         <img src="./images/budget-friendly-fashion-bloggers-17.jpg" alt="profile" >
       </div>
     </nav>
+
+    <div class='user-profile'>
+      <div class='user-image' id='main'>
+          <img src="./images/budget-friendly-fashion-bloggers-17.jpg" alt="profile" >
+      </div>
+      <div class='user-info'>
+        <div class='data'>
+          <span>Welcome,</span>
+          <span>Lourdes Villanueva</span>
+          <span>lourdes@mail.com</span>
+        </div>
+        <div class='button'>
+          <a href="/edit.html" class='edit'>E D I T  P R O F I L E</a>
+          <a href="/profile-setup.html" class='edit'>C O M P L E T E  P R O F I L E</a>
+        </div>
+      </div>
+    </div>
+    <div class='notice'>
+      <p>Complete your profile to receive more personalized results.</p>
+    </div>
+    <div class='option-bar'>
+      <div class='line-divider'></div>
+
+      <div class='button' id='options'>
+        <a href="/favorites.html" class='option'>5 4   F A V O R I T E S</a>
+        <a href="/saved-venues.html" class='option'>7  S A V E D  V E N U E S</a>
+      </div>
+    </div>
+    <div class='list'>
+      <div class='favorite-container'>
+        <div class='item'>
+          <a href="/favorite.html">
+            <div class='item-images'>
+              <a href="/remove-favorite.html" class='favorite-heart'>
+                <img src="./images/facebook-blank-heart-png-9.png" alt="heart">
+              </a>
+              <img src="./images/220x294-1.jpg" alt="favorited-item">
+            </div>
+          </a>
+          <div class='item-info'>
+            <div class='style'>
+              <span>Dolce & Gabbana</span>
+              <span class='description'>Floral Printed Dress</span>
+            </div>
+            <span class='price'>$1,759-$1,950</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <div class='search-form'>
           <form action="/search.html">
